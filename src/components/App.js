@@ -9,14 +9,14 @@ const App = () => {
         id="increment-btn"
         onClick={() => dispatch({ type: "increment" })}
       >
-        +
+        increase
       </button>
-      <span id="count">{state.count}</span>
+      <span id="counter">{state.count}</span>
       <button
         id="decrement-btn"
         onClick={() => dispatch({ type: "decrement" })}
       >
-        -
+        decrease
       </button>
     </div>
   );
